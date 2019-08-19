@@ -1,0 +1,18 @@
+Python
+Install most recent version of python. You will need to pip install a few libraries. 
+To do so type: pip install selenium
+Modules needed: selenium, fpdf, pyinstaller.
+Selenium and fpdf are used in the code whereas pyinstaller converts the 
+python file to an executable.
+To use pyinstaller run the command pyinstaller -F x.py 
+Along with python the firefox gecko driver needs to be downloaded and stored in the same folder that the exe is stored
+
+Codebase
+All commands and methods are commented however any new methods that need to be added can be done so easily.
+The main change in the codebase that will be required is the ip address, this can be seen at the end of the code, 
+just replace with any new environment IP or any new passwords/usernames
+
+Running The Code
+The code once compiled into an exe can be run on any virtual machine or on local machine.
+The Code produces screenshots, each labelled and organised into their own folder by Language. 
+At the end of the automation a PDF is generated with the result of each test, the number of failed attempts and any error messages. 
